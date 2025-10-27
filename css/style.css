@@ -1,47 +1,56 @@
 @font-face {
     font-family: "Nekst";
-    src:  url("../font/Nekst-Black.woff") format("woff");
+    src: url("../font/Nekst-Black.woff") format("woff");
     font-weight: 900;
 }
+
 @font-face {
     font-family: "Nekst";
-    src:  url("../font/Nekst-Bold.woff") format("woff");
+    src: url("../font/Nekst-Bold.woff") format("woff");
     font-weight: 700;
 }
+
 @font-face {
     font-family: "Nekst";
-    src:  url("../font/Nekst-Light.woff") format("woff");
+    src: url("../font/Nekst-Light.woff") format("woff");
     font-weight: 300;
 }
+
 @font-face {
     font-family: "Nekst";
-    src:  url("../font/Nekst-Medium.woff") format("woff");
+    src: url("../font/Nekst-Medium.woff") format("woff");
     font-weight: 500;
 }
+
 @font-face {
     font-family: "Nekst";
-    src:  url("../font/Nekst-Regular.woff") format("woff");
+    src: url("../font/Nekst-Regular.woff") format("woff");
     font-weight: 400;
 }
+
 @font-face {
     font-family: "Nekst";
-    src:  url("../font/Nekst-SemiBold.woff") format("woff");
+    src: url("../font/Nekst-SemiBold.woff") format("woff");
     font-weight: 600;
 }
+
 @font-face {
     font-family: "Nekst";
-    src:  url("../font/Nekst-Thin.woff") format("woff");
+    src: url("../font/Nekst-Thin.woff") format("woff");
     font-weight: 200;
 }
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     overflow-x: hidden;
 }
-.hero{
+
+.hero {
     background-image: url('../photo/background1.svg');
     background-position: 0 0;
     height: 729px;
@@ -49,7 +58,8 @@ body{
     margin: 0;
     padding: 0;
 }
-.bigdenis{
+
+.bigdenis {
     position: absolute;
     width: 623px;
     height: 380px;
@@ -59,7 +69,8 @@ body{
     flex-direction: column;
     gap: 7px;
 }
-.yellowthings-row{
+
+.yellowthings-row {
     display: flex;
     flex-direction: row;
     border-radius: 3px;
@@ -69,7 +80,8 @@ body{
     font-size: 34px;
     height: 46px;
 }
-.yellowthings{
+
+.yellowthings {
     padding-left: 6px;
     border-radius: 3px;
     background-color: #FCC011;
@@ -79,23 +91,26 @@ body{
     height: 46px;
     align-items: center;
 }
-#id:hover{
+
+#id:hover {
     background-color: #000;
-    color:#FCC011;
-    cursor: pointer;
-}
-.yellowthings-row:hover{
-    background-color: #000;
-    color:#FCC011;
+    color: #FCC011;
     cursor: pointer;
 }
 
-#denis{
+.yellowthings-row:hover {
+    background-color: #000;
+    color: #FCC011;
+    cursor: pointer;
+}
+
+#denis {
     height: 37px;
     font-weight: 600;
     font-size: 22px;
 }
-#denisimg{
+
+#denisimg {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -105,24 +120,30 @@ body{
     padding: 3px;
     align-items: center;
 }
-#id{
+
+#id {
     font-weight: 600;
 }
-#project{
+
+#project {
     font-weight: 600;
 }
-#label{
+
+#label {
     font-weight: 900;
     padding-left: 7px;
 }
-#threat{  
+
+#threat {
     font-weight: 600;
 }
-#procent{
+
+#procent {
     font-weight: 600;
     padding-left: 140px;
 }
-#line1{
+
+#line1 {
     position: absolute;
     width: 242px;
     height: 3px;
@@ -130,7 +151,8 @@ body{
     left: 518px;
     background-color: #FCC011;
 }
-#rec1{
+
+#rec1 {
     position: absolute;
     width: 87px;
     height: 68px;
@@ -139,7 +161,8 @@ body{
     border: 3px solid;
     border-color: #FCC011;
 }
-#lineinrec1{
+
+#lineinrec1 {
     position: absolute;
     width: 6px;
     height: 3px;
@@ -147,7 +170,8 @@ body{
     left: 512px;
     background-color: #FCC011;
 }
-#lineinrec2{
+
+#lineinrec2 {
     position: absolute;
     width: 6px;
     height: 3px;
@@ -155,7 +179,8 @@ body{
     left: 432px;
     background-color: #FCC011;
 }
-#recname1{
+
+#recname1 {
     position: absolute;
     width: 37px;
     height: 11px;
@@ -168,7 +193,8 @@ body{
     align-items: center;
     padding-left: 2px;
 }
-#rec2{
+
+#rec2 {
     position: absolute;
     width: 320px;
     height: 291px;
@@ -177,7 +203,8 @@ body{
     border: 3px solid;
     border-color: #EF0AF0;
 }
-#recname2{
+
+#recname2 {
     position: absolute;
     align-items: center;
     width: 61px;
@@ -190,14 +217,16 @@ body{
     font-size: 10px;
     padding-left: 2px;
 }
-#line2{
+
+#line2 {
     position: absolute;
     top: 429px;
     left: 646px;
     width: 198px;
     height: 67px;
 }
-#model{
+
+#model {
     position: absolute;
     width: 393px;
     height: 44px;
@@ -212,7 +241,8 @@ body{
     font-size: 25px;
     align-items: center;
 }
-#user{
+
+#user {
     position: absolute;
     width: 595px;
     height: 44px;
@@ -227,7 +257,8 @@ body{
     font-size: 25px;
     align-items: center;
 }
-.about{
+
+.about {
     background-image: url('../photo/background2.svg');
     background-position: 0 0;
     height: 730px;
@@ -235,249 +266,370 @@ body{
     margin: 0;
     padding: 0;
 }
-.slot{
+
+.slot {
     display: flex;
     justify-content: center;
     width: 100%;
     padding: 15px 0;
-    div{
+
+    div {
         align-items: center;
         justify-content: center;
         display: flex;
     }
+
     border-bottom: 3px solid;
     border-right: 3px solid;
     border-color: #00FF03;
 }
-.slot1{
+
+.slot1 {
     display: flex;
     justify-content: center;
     width: 100%;
     padding: 8px 10px 12px 15px;
     border-bottom: 3px solid;
     border-color: #00FF03;
-    div{
+
+    div {
         align-items: center;
         justify-content: center;
         display: flex;
     }
 }
-.pixels{
+
+.pixels {
     position: absolute;
     background-color: #00FF03;
     animation-duration: 0.1ms;
     animation-iteration-count: infinite;
     animation-timing-function: step-end;
 }
-#pix1{
+
+#pix1 {
     top: 743px;
     left: 671px;
     width: 133px;
     height: 20px;
     animation-name: brokenPixel1;
 }
-#pix2{
+
+#pix2 {
     top: 804px;
     left: 756px;
     width: 110px;
     height: 13px;
     animation-name: brokenPixel2;
 }
-#pix3{
+
+#pix3 {
     top: 878px;
     left: 820px;
     width: 80px;
     height: 13px;
     animation-name: brokenPixel3;
 }
-#pix4{
+
+#pix4 {
     top: 1045px;
     left: 847px;
     width: 87px;
     height: 12px;
     animation-name: brokenPixel4;
 }
-#pix5{
+
+#pix5 {
     top: 1072px;
     left: 818px;
     width: 85px;
     height: 13px;
     animation-name: brokenPixel5;
 }
-#pix6{
+
+#pix6 {
     top: 1144px;
     left: 850px;
     width: 85px;
     height: 13px;
     animation-name: brokenPixel6;
 }
-#pix7{
+
+#pix7 {
     top: 1257px;
     left: 833px;
     width: 62px;
     height: 20px;
     animation-name: brokenPixel7;
 }
-#pix8{
+
+#pix8 {
     top: 1394px;
     left: 748px;
     width: 102px;
     height: 10px;
     animation-name: brokenPixel8;
 }
-#pix9{
+
+#pix9 {
     top: 1428px;
     left: 611px;
     width: 88px;
     height: 20px;
     animation-name: brokenPixel9;
 }
- @keyframes brokenPixel1 {
-    0%, 70% { background-color: #000; }
-    71%, 100% { background-color: #f00; }
+
+@keyframes brokenPixel1 {
+
+    0%,
+    70% {
+        background-color: #000;
+    }
+
+    71%,
+    100% {
+        background-color: #f00;
+    }
 }
 
 @keyframes brokenPixel2 {
-    0%, 80% { background-color: #000; }
-    81%, 90% { background-color: #0f0; }
-    91%, 100% { background-color: #000; }
+
+    0%,
+    80% {
+        background-color: #000;
+    }
+
+    81%,
+    90% {
+        background-color: #0f0;
+    }
+
+    91%,
+    100% {
+        background-color: #000;
+    }
 }
 
 @keyframes brokenPixel3 {
-    0%, 60% { background-color: #000; }
-    61%, 65% { background-color: #00f; } 
-    66%, 100% { background-color: #000; }
+
+    0%,
+    60% {
+        background-color: #000;
+    }
+
+    61%,
+    65% {
+        background-color: #00f;
+    }
+
+    66%,
+    100% {
+        background-color: #000;
+    }
 }
 
 @keyframes brokenPixel4 {
-    0%, 85% { background-color: #000; }
-    86%, 100% { background-color: #ff0; } 
+
+    0%,
+    85% {
+        background-color: #000;
+    }
+
+    86%,
+    100% {
+        background-color: #ff0;
+    }
 }
 
 @keyframes brokenPixel5 {
-    0% { background-color: #000; }
-    25% { background-color: #f0f; }
-    50% { background-color: #0ff; }
-    75% { background-color: #fff; } 
-    100% { background-color: #000; }
+    0% {
+        background-color: #000;
+    }
+
+    25% {
+        background-color: #f0f;
+    }
+
+    50% {
+        background-color: #0ff;
+    }
+
+    75% {
+        background-color: #fff;
+    }
+
+    100% {
+        background-color: #000;
+    }
 }
 
 @keyframes brokenPixel6 {
-    0%, 90% { background-color: #000; }
-    91%, 95% { background-color: #fff; } 
-    96%, 100% { background-color: #000; }
+
+    0%,
+    90% {
+        background-color: #000;
+    }
+
+    91%,
+    95% {
+        background-color: #fff;
+    }
+
+    96%,
+    100% {
+        background-color: #000;
+    }
 }
 
 @keyframes brokenPixel7 {
-    0%, 75% { background-color: #000; }
-    76%, 100% { background-color: #f90; } 
+
+    0%,
+    75% {
+        background-color: #000;
+    }
+
+    76%,
+    100% {
+        background-color: #f90;
+    }
 }
 
 @keyframes brokenPixel8 {
-    0% { background-color: #f00; } 
-    50% { background-color: #800; }
-    100% { background-color: #f00; }
+    0% {
+        background-color: #f00;
+    }
+
+    50% {
+        background-color: #800;
+    }
+
+    100% {
+        background-color: #f00;
+    }
 }
 
 @keyframes brokenPixel9 {
-    0%, 95% { background-color: #000; }
-    96%, 100% { background-color: #0f0; } 
+
+    0%,
+    95% {
+        background-color: #000;
+    }
+
+    96%,
+    100% {
+        background-color: #0f0;
+    }
 }
 
 
-.greenrec{
+.greenrec {
     border: 3px solid;
     border-color: #00FF03;
     position: absolute;
 }
-#rec3{
+
+#rec3 {
     width: 217px;
     height: 478px;
     top: 975px;
     left: 1137px;
 }
-#rec4{
+
+#rec4 {
     width: 115px;
     height: 93px;
     top: 1000px;
     left: 1170px;
 }
-#rec5{
+
+#rec5 {
     width: 67px;
     height: 73px;
     top: 1013px;
     left: 1415px;
 }
-#rec6{
+
+#rec6 {
     width: 130px;
     height: 402px;
     top: 992px;
     left: 1378px;
 }
-.greenlines{
+
+.greenlines {
     background-color: #00FF03;
-    position:absolute;
+    position: absolute;
 }
-#line3{
+
+#line3 {
     width: 3px;
     height: 147px;
     top: 854px;
     left: 1235px;
 }
-#line4{
+
+#line4 {
     width: 3px;
     height: 161px;
     top: 854px;
     left: 1449px;
 }
-#line5{
+
+#line5 {
     width: 748px;
     height: 3px;
     top: 854px;
     left: 702px;
 }
-.greenrecname{
+
+.greenrecname {
     background-color: #00FF03;
-    position:absolute;
+    position: absolute;
     font-family: 'Nekst';
     font-weight: 300;
     align-items: center;
     padding-left: 2px;
 }
-#recname3{
+
+#recname3 {
     width: 72px;
     height: 22px;
     top: 954px;
     left: 1141px;
     font-size: 15px;
 }
-#recname4{
+
+#recname4 {
     width: 50px;
     height: 16px;
     top: 976px;
     left: 1386px;
     font-size: 10px;
 }
-#rec10{
+
+#rec10 {
     width: 672px;
     height: 524px;
     top: 774px;
     left: 41px;
 }
-#rec9{
+
+#rec9 {
     width: 649px;
     height: 501px;
     top: 784px;
     left: 54px;
     background-color: black;
 }
-#rec8{
+
+#rec8 {
     width: 624px;
     height: 472px;
     top: 893px;
     left: 179px;
 }
-#rec7{
+
+#rec7 {
     width: 598px;
     height: 445px;
     top: 904px;
@@ -485,13 +637,14 @@ body{
     background-color: #808080;
 }
 
-.aboutrec{
+.aboutrec {
     display: flex;
     flex-direction: column;
     width: 647px;
     height: 501px;
 }
-#rec11{
+
+#rec11 {
     width: 253px;
     height: 48px;
     font-family: 'Nekst';
@@ -499,35 +652,41 @@ body{
     font-size: 45px;
     background-color: #00FF03;
 }
-.mainpartrow{
+
+.mainpartrow {
     display: flex;
     flex-direction: row;
-    .slot{
+
+    .slot {
         width: 50%;
     }
 }
-#text1{
+
+#text1 {
     font-family: 'Nekst';
     font-weight: 600;
     font-size: 45px;
-    color:#00FF03;
-    
+    color: #00FF03;
+
 }
-#text2{
+
+#text2 {
     font-family: 'Nekst';
     font-weight: 400;
     font-size: 20px;
     color: white;
     width: 100%;
 }
-#text3{
+
+#text3 {
     font-family: 'Nekst';
     font-weight: 400;
     font-size: 20px;
     color: white;
     width: 100%;
 }
-#text4{
+
+#text4 {
     font-family: 'Nekst';
     font-weight: 400;
     font-size: 20px;
@@ -536,72 +695,85 @@ body{
     width: 100%;
     border-bottom: 0;
 }
-#rec12{
+
+#rec12 {
     height: 30px;
 }
-.slot2{
+
+.slot2 {
     display: flex;
     justify-content: center;
     width: 100%;
     padding: 10px 10px 12px 15px;
-    div{
+
+    div {
         align-items: center;
         justify-content: center;
         display: flex;
     }
 }
-.closeopen{
+
+.closeopen {
     display: flex;
     flex-direction: row;
     padding-left: 486px;
     border-bottom: #00FF03 3px solid;
 }
-.slot3{
+
+.slot3 {
     display: flex;
     justify-content: center;
     width: 100%;
     padding: 17px 10px;
-    div{
+
+    div {
         align-items: center;
         justify-content: center;
         display: flex;
     }
 }
-#rec13{
+
+#rec13 {
     width: 31px;
     height: 3px;
     background-color: #00FF03;
 }
-#rec14{
+
+#rec14 {
     width: 23px;
     height: 23px;
-    border:#00FF03 3px solid;
+    border: #00FF03 3px solid;
 }
-.closeopen1{
+
+.closeopen1 {
     display: flex;
     flex-direction: row;
     padding-left: 400px;
     border-bottom: #00FF03 3px solid;
     width: 100%;
 }
-.aboutrec2{
+
+.aboutrec2 {
     display: flex;
     flex-direction: column;
     width: 595px;
     height: 501px;
 }
-.slot4{
+
+.slot4 {
     display: flex;
     justify-content: flex-end;
     width: 100%;
     padding: 17px 0 17px 10px;
-    div{
+
+    div {
         align-items: center;
         justify-content: center;
         display: flex;
     }
 }
-.nachert{
+
+.outline {
     background-image: url('../photo/background3.svg');
     background-position: 0 0;
     height: 960px;
@@ -609,103 +781,120 @@ body{
     margin: 0;
     padding: 0;
 }
-#infonachert{
+
+#infooutline {
     position: absolute;
     top: 1489px;
     left: 47px;
     width: 455px;
     height: 897px;
 }
-.infonachertflex{
+
+.infooutlineflex {
     display: flex;
     flex-direction: column;
     width: 438px;
     height: 897px;
 }
-.slot5{
+
+.slot5 {
     display: flex;
     justify-content: center;
     width: 100%;
     padding: 15px;
-    div{
+
+    div {
         align-items: center;
         justify-content: center;
         display: flex;
     }
 }
 
-#maintext{
+#maintext {
     font-family: 'Nekst';
     font-weight: 700;
     font-size: 60px;
     color: white;
     border-bottom: #EF0AF0 3px solid;
 }
-#text5{
+
+#text5 {
     font-family: 'Nekst';
     font-weight: 500;
     font-size: 32px;
     color: white;
 }
-.pinkrec{
-    border:#EF0AF0 9px solid;
+
+.pinkrec {
+    border: #EF0AF0 9px solid;
     background-color: black;
 }
-.pinkrecwithoutbackground{
-    border:#EF0AF0 9px solid;
+
+.pinkrecwithoutbackground {
+    border: #EF0AF0 9px solid;
 }
-.pinkrecforthird{
+
+.pinkrecforthird {
     position: absolute;
-    border:#EF0AF0 3px solid;
+    border: #EF0AF0 3px solid;
 }
-.pinkrecmini{
+
+.pinkrecmini {
     position: absolute;
     background-color: #EF0AF0;
 }
-#recj{
+
+#recj {
     top: 1516px;
     left: 730px;
     width: 218px;
     height: 206px;
 }
-#linej{
+
+#linej {
     top: 1565px;
     left: 498px;
     width: 232px;
     height: 3px;
 }
-#miniline1{
+
+#miniline1 {
     top: 1518px;
     left: 836px;
     width: 6px;
     height: 15px;
 }
-#miniline2{
+
+#miniline2 {
     top: 1616px;
     left: 934px;
     width: 15px;
     height: 6px;
 }
-#miniline3{
+
+#miniline3 {
     top: 1707px;
     left: 836px;
     width: 6px;
     height: 15px;
 }
-#miniline4{
+
+#miniline4 {
     top: 1616px;
     left: 731px;
     width: 15px;
     height: 6px;
 }
-#form{
+
+#form {
     position: absolute;
     top: 1489px;
     left: 974px;
     width: 516px;
     height: 897px;
 }
-.formflex{
+
+.formflex {
     position: absolute;
     top: 1508px;
     left: 998px;
@@ -713,9 +902,10 @@ body{
     height: 856px;
     display: flex;
     flex-direction: column;
-    border:#EF0AF0 3px solid;
+    border: #EF0AF0 3px solid;
 }
-.formflex1{
+
+.formflex1 {
     position: absolute;
     top: 4350px;
     left: 570px;
@@ -723,133 +913,158 @@ body{
     height: 1104px;
     display: flex;
     flex-direction: column;
-    border:#EF0AF0 5px solid;
+    border: #EF0AF0 5px solid;
 }
-.slwofform{
+
+.slwofform {
     display: flex;
     justify-content: center;
-    div{
+
+    div {
         align-items: center;
         justify-content: center;
         display: flex;
     }
 }
-.slwofform2{
+
+.slwofform2 {
     display: flex;
     justify-content: center;
-    div{
+
+    div {
         align-items: center;
         justify-content: center;
         display: flex;
     }
 }
-.formrow{
+
+.formrow {
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 3px 3px 6px 3px;
-    border:#EF0AF0 3px solid;
+    border: #EF0AF0 3px solid;
     justify-content: flex-start;
     margin: 5px;
     gap: 128px;
 }
-.formrow1{
+
+.formrow1 {
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 3px 3px 6px 3px;
-    border:#EF0AF0 5px solid;
+    border: #EF0AF0 5px solid;
     justify-content: flex-start;
     margin: 5px 10px;
     gap: 178px;
 }
-.formwrap{
+
+.formwrap {
     display: flex;
     flex-wrap: wrap;
     padding: 5px 10px;
     justify-content: space-between;
 }
-.formwrap1{
+
+.formwrap1 {
     display: flex;
     flex-wrap: wrap;
     padding: 3px 10px;
     justify-content: space-between;
 }
-.slot6{
+
+.slot6 {
     display: flex;
     justify-content: center;
-    div{
+
+    div {
         align-items: center;
         justify-content: center;
         display: flex;
     }
 }
-#chel{
-    border:#EF0AF0 3px solid;
+
+#person3 {
+    border: #EF0AF0 3px solid;
     width: 217px;
     height: 290px;
 }
-#chel1{
-    border:#EF0AF0 5px solid;
+
+#person4 {
+    border: #EF0AF0 5px solid;
 }
-#chelik{
-    border:#EF0AF0 3px solid;
+
+#person {
+    border: #EF0AF0 3px solid;
 }
-#chelik1{
-    border:#EF0AF0 5px solid;
+
+#person1 {
+    border: #EF0AF0 5px solid;
     width: 421px;
     height: 420px;
 }
-.slwofform1{
+
+.slwofform1 {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    div{
+
+    div {
         align-items: center;
         justify-content: center;
         display: flex;
     }
+
     gap: 10px;
     padding:6px;
 }
-.slwofform3{
+
+.slwofform3 {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    div{
+
+    div {
         align-items: center;
         justify-content: center;
         display: flex;
     }
+
     gap: 10px;
     padding:6px;
 }
-.slwofform2{
+
+.slwofform2 {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    div{
+
+    div {
         align-items: center;
         justify-content: center;
         display: flex;
     }
 }
-.formrowborder{
+
+.formrowborder {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 10px;
-    border:#EF0AF0 3px solid;
+    border: #EF0AF0 3px solid;
     margin: 0 10px;
 }
-.formrowborder1{
+
+.formrowborder1 {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 15px;
-    border:#EF0AF0 5px solid;
+    border: #EF0AF0 5px solid;
     margin: 0 10px;
 }
+
 .font-options1 {
     width: 50%;
     display: flex;
@@ -858,108 +1073,130 @@ body{
     font-family: 'Nekst';
     font-size: 54px;
     padding: 10px;
-    div{
-        display:flex;
+
+    div {
+        display: flex;
         padding-bottom: 20px;
     }
 }
+
 .font-options2 {
     width: 50%;
     display: flex;
     flex-direction: column;
-    color:#EF0AF0;
+    color: #EF0AF0;
     font-family: 'Nekst';
     font-size: 54px;
     padding: 10px;
     align-items: flex-end;
-    div{
-        display:flex;
+
+    div {
+        display: flex;
         padding-bottom: 20px;
     }
 }
-.weights{
+
+.weights {
     display: flex;
 }
-#thin{
+
+#thin {
     font-weight: 200;
 }
-#light{
+
+#light {
     font-weight: 300;
 }
-#regular{
+
+#regular {
     font-weight: 400;
 }
-#medium{
+
+#medium {
     font-weight: 500;
 }
-#semibold{
+
+#semibold {
     font-weight: 600;
 }
-#bold{
+
+#bold {
     font-weight: 700;
 }
-#black{
+
+#black {
     font-weight: 900;
 }
+
 .footer {
     color: #EF0AF0;
     font-size: 20px;
     font-weight: 600;
     font-family: 'Nekst';
 }
-.footer1{
+
+.footer1 {
     color: #EF0AF0;
     font-size: 40px;
     font-weight: 600;
     font-family: 'Nekst';
 }
-.aboutpolice{
+
+.aboutpolice {
     display: flex;
     flex-direction: row;
-    color:#EF0AF0;
+    color: #EF0AF0;
     font-family: 'Nekst';
     padding: 5px;
     align-items: flex-end;
     border-top: 3px solid #ff00ff;
-    div{
-        display:flex;
+
+    div {
+        display: flex;
         text-align: center;
     }
 }
-.aboutpolice1{
+
+.aboutpolice1 {
     display: flex;
     flex-direction: row;
-    color:#EF0AF0;
+    color: #EF0AF0;
     font-family: 'Nekst';
     padding: 5px;
     align-items: flex-end;
     border-top: 5px solid #ff00ff;
-    div{
-        display:flex;
+
+    div {
+        display: flex;
         text-align: center;
     }
 }
-.star{
+
+.star {
     width: 46px;
     height: 47px;
 }
-.star1{
+
+.star1 {
     width: 76px;
     height: 78px;
 }
-#pinktext{
+
+#pinktext {
     font-family: 'Nekst';
     font-weight: 600;
     font-size: 18px;
     color: #EF0AF0;
 }
-#pinktext1{
+
+#pinktext1 {
     font-family: 'Nekst';
     font-weight: 600;
     font-size: 37px;
     color: #EF0AF0;
 }
-.details{
+
+.details {
     background-image: url('../photo/background4.svg');
     background-position: 0 0;
     height: 730px;
@@ -967,53 +1204,62 @@ body{
     margin: 0;
     padding: 0;
 }
-.yerec{
+
+.yerec {
     position: absolute;
-    border:#FCC011 3px solid;
+    border: #FCC011 3px solid;
 }
-#rec41{
+
+#rec41 {
     top: 2543px;
     left: 96px;
     width: 94px;
     height: 134px;
 }
-#rec42{
+
+#rec42 {
     top: 2624px;
     left: 451px;
     width: 89px;
     height: 57px;
 }
-#rec43{
+
+#rec43 {
     top: 2865px;
     left: 388px;
     width: 106px;
     height: 89px;
 }
-#rec44{
+
+#rec44 {
     top: 2885px;
     left: 777px;
     width: 74px;
     height: 77px;
 }
-#rec45{
+
+#rec45 {
     top: 2983px;
     left: 925px;
     width: 102px;
     height: 129px;
 }
-#rec46{
+
+#rec46 {
     top: 2736px;
     left: 1306px;
     width: 75px;
     height: 78px;
 }
-#rec47{
+
+#rec47 {
     top: 2486px;
     left: 991px;
     width: 229px;
     height: 238px;
 }
-.yename{
+
+.yename {
     position: absolute;
     background-color: #FCC011;
     font-family: 'Nekst';
@@ -1024,67 +1270,78 @@ body{
     align-items: center;
     justify-content: center;
 }
-#rec48{
+
+#rec48 {
     top: 2846px;
     left: 159px;
     width: 97px;
     height: 37px;
 }
-#rec49{
+
+#rec49 {
     top: 2593px;
     left: 569px;
     width: 178px;
     height: 37px;
 }
-#rec410{
+
+#rec410 {
     top: 3059px;
     left: 316px;
     width: 184px;
     height: 37px;
 }
-#rec411{
+
+#rec411 {
     top: 3019px;
     left: 691px;
     width: 127px;
     height: 31px;
 }
-#rec412{
+
+#rec412 {
     top: 3057px;
     left: 1133px;
     width: 139px;
     height: 41px;
 }
-#rec413{
+
+#rec413 {
     top: 2913px;
     left: 1235px;
     width: 143px;
     height: 37px;
 }
-#rec414{
+
+#rec414 {
     top: 2486px;
     left: 1105px;
     width: 3px;
     height: 17px;
 }
-#rec415{
+
+#rec415 {
     top: 2605px;
     left: 1201px;
     width: 17px;
     height: 3px;
 }
-#rec416{
+
+#rec416 {
     top: 2705px;
     left: 1105px;
     width: 3px;
     height: 17px;
 }
-#rec417{
+
+#rec417 {
     top: 2605px;
     left: 993px;
     width: 17px;
     height: 3px;
 }
-.languages{
+
+.languages {
     background-image: url('../photo/background5.svg');
     background-position: 0 0;
     height: 1030px;
@@ -1092,7 +1349,8 @@ body{
     margin: 0;
     padding: 0;
 }
-.greenlang{
+
+.greenlang {
     position: absolute;
     font-family: 'Nekst';
     font-size: 30px;
@@ -1103,7 +1361,8 @@ body{
     align-items: center;
     justify-content: center;
 }
-#langname{
+
+#langname {
     position: absolute;
     font-family: 'Nekst';
     font-size: 64px;
@@ -1118,324 +1377,377 @@ body{
     align-items: center;
     justify-content: center;
 }
-#lang1{
+
+#lang1 {
     top: 3335px;
     left: 15px;
     width: 176px;
     height: 45px;
 }
-#lang2{
+
+#lang2 {
     top: 3407px;
     left: 187px;
     width: 156px;
     height: 39px;
 }
-#lang3{
+
+#lang3 {
     top: 3593px;
     left: 10px;
     width: 133px;
     height: 39px;
 }
-#lang4{
+
+#lang4 {
     top: 3708px;
     left: 22px;
     width: 97px;
     height: 39px;
 }
-#lang5{
+
+#lang5 {
     top: 3824px;
     left: 37px;
     width: 114px;
     height: 39px;
 }
-#lang6{
+
+#lang6 {
     top: 3916px;
     left: 110px;
     width: 129px;
     height: 39px;
 }
-#lang7{
+
+#lang7 {
     top: 3997px;
     left: 28px;
     width: 114px;
     height: 39px;
 }
-#lang8{
+
+#lang8 {
     top: 3955px;
     left: 290px;
     width: 95px;
     height: 39px;
 }
-#lang9{
+
+#lang9 {
     top: 4079px;
     left: 201px;
     width: 125px;
     height: 36px;
 }
-#lang10{
+
+#lang10 {
     top: 4104px;
     left: 413px;
     width: 101px;
     height: 39px;
 }
-#lang11{
+
+#lang11 {
     top: 3320px;
     left: 396px;
     width: 181px;
     height: 35px;
 }
-#lang12{
+
+#lang12 {
     top: 3439px;
     left: 425px;
     width: 114px;
     height: 38px;
 }
-#lang13{
+
+#lang13 {
     top: 3320px;
     left: 704px;
     width: 122px;
     height: 39px;
 }
-#lang14{
+
+#lang14 {
     top: 3411px;
     left: 625px;
     width: 160px;
     height: 39px;
 }
-#lang15{
+
+#lang15 {
     top: 3581px;
     left: 611px;
     width: 114px;
     height: 39px;
 }
-#lang16{
+
+#lang16 {
     top: 3631px;
     left: 693px;
     width: 146px;
     height: 40px;
 }
-#lang17{
+
+#lang17 {
     top: 3509px;
     left: 750px;
     width: 152px;
     height: 36px;
 }
-#lang18{
+
+#lang18 {
     top: 3426px;
     left: 918px;
     width: 114px;
     height: 39px;
 }
-#lang19{
+
+#lang19 {
     top: 3333px;
     left: 902px;
     width: 163px;
     height: 39px;
 }
-#lang20{
+
+#lang20 {
     top: 4070px;
     left: 709px;
     width: 114px;
     height: 38px;
 }
-#lang21{
+
+#lang21 {
     top: 4048px;
     left: 995px;
     width: 85px;
     height: 36px;
 }
-#lang22{
+
+#lang22 {
     top: 3737px;
     left: 1079px;
     width: 82px;
     height: 39px;
 }
-#lang23{
+
+#lang23 {
     top: 3560px;
     left: 1136px;
     width: 119px;
     height: 39px;
 }
-#lang24{
+
+#lang24 {
     top: 3478px;
     left: 1080px;
     width: 169px;
     height: 39px;
 }
-#lang25{
+
+#lang25 {
     top: 3415px;
     left: 1258px;
     width: 102px;
     height: 39px;
 }
-#lang26{
+
+#lang26 {
     top: 3518px;
     left: 1341px;
     width: 114px;
     height: 38px;
 }
-#lang27{
+
+#lang27 {
     top: 3945px;
     left: 1195px;
     width: 117px;
     height: 38px;
 }
-#lang28{
+
+#lang28 {
     top: 3836px;
     left: 1344px;
     width: 128px;
     height: 40px;
 }
-#lang29{
+
+#lang29 {
     top: 4095px;
     left: 1309px;
     width: 125px;
     height: 36px;
 }
-#lang30{
+
+#lang30 {
     top: 3876px;
     left: 963px;
     width: 142px;
     height: 37px;
 }
-#reclang1{
+
+#reclang1 {
     top: 3511px;
     left: 0px;
     width: 19px;
     height: 29px;
 }
-#reclang2{
+
+#reclang2 {
     top: 3500px;
     left: 28px;
     width: 28px;
     height: 39px;
 }
-#reclang3{
+
+#reclang3 {
     top: 3525px;
     left: 34px;
     width: 44px;
     height: 39px;
 }
-#reclang4{
+
+#reclang4 {
     top: 3500px;
     left: 83px;
     width: 44px;
     height: 39px;
 }
-#reclang5{
+
+#reclang5 {
     top: 3501px;
     left: 165px;
     width: 44px;
     height: 39px;
 }
-#reclang6{
+
+#reclang6 {
     top: 3500px;
     left: 240px;
     width: 40px;
     height: 35px;
 }
-#reclang7{
+
+#reclang7 {
     top: 3514px;
     left: 269px;
     width: 57px;
     height: 68px;
 }
-#reclang8{
+
+#reclang8 {
     top: 3516px;
     left: 366px;
     width: 39px;
     height: 38px;
 }
-#reclang9{
+
+#reclang9 {
     top: 3552px;
     left: 449px;
     width: 59px;
     height: 64px;
 }
-#reclang10{
+
+#reclang10 {
     top: 3554px;
     left: 491px;
     width: 110px;
     height: 130px;
 }
-#reclang11{
+
+#reclang11 {
     top: 3561px;
     left: 326px;
     width: 113px;
     height: 140px;
 }
-#reclang12{
+
+#reclang12 {
     top: 3599px;
     left: 169px;
     width: 179px;
     height: 215px;
 }
-#reclang13{
+
+#reclang13 {
     top: 3707px;
     left: 437px;
     width: 320px;
     height: 330px;
 }
-#reclang14{
+
+#reclang14 {
     top: 3767px;
     left: 743px;
     width: 159px;
     height: 186px;
 }
-#reclang15{
+
+#reclang15 {
     top: 3588px;
     left: 861px;
     width: 181px;
     height: 199px;
 }
-#reclang16{
+
+#reclang16 {
     top: 3651px;
     left: 1189px;
     width: 77px;
     height: 86px;
 }
-#reclang17{
+
+#reclang17 {
     top: 3651px;
     left: 1292px;
     width: 99px;
     height: 126px;
 }
-#reclang18{
+
+#reclang18 {
     top: 3626px;
     left: 1378px;
     width: 97px;
     height: 113px;
 }
-.glyfs{
+
+.glyfs {
     background-image: url('../photo/background6.svg');
     background-position: 0;
     height: 1460px;
     width: 1536px;
     margin: 0;
-    padding: 0;   
+    padding: 0;
 }
-#form1{
+
+#form1 {
     position: absolute;
     top: 4281px;
     left: 503px;
     width: 950px;
     height: 1240px;
 }
-#blackborder{
+
+#blackborder {
     position: absolute;
     top: 4289px;
     left: 512px;
     width: 932px;
     height: 1223px;
-    border:#000 58px solid;
+    border: #000 58px solid;
 }
+
 .glyphs-section {
-  padding:20px;
-  display: flex;
-  flex-direction: column;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
 
 }
-#bigpink{
+
+#bigpink {
     font-family: 'Nekst';
     font-weight: 900;
     font-size: 75px;
@@ -1448,32 +1760,33 @@ body{
     align-items: flex-end;
     margin: 10px;
 }
-.bigslot{
+
+.bigslot {
     display: flex;
     flex-direction: column;
     gap: 171px;
 }
 
 .glyph-row {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .glyph-row {
-    div{
+    div {
         font-family: 'Nekst';
-        color:white;
+        color: white;
         font-weight: 600;
         font-size: 40px;
         padding: 7px;
     }
 }
 
-.glyph-row div:hover{
+.glyph-row div:hover {
     animation-play-state: paused;
-    background:#EF0AF0 !important;
+    background: #EF0AF0 !important;
     color: #000000 !important;
     transform: scale(1.3) !important;
     z-index: 10;
@@ -1481,7 +1794,7 @@ body{
     cursor: pointer;
 }
 
-.lygaturs{
+.lygaturs {
     background-image: url('../photo/background7.svg');
     background-position: 0 0;
     height: 730px;
@@ -1490,69 +1803,80 @@ body{
     padding: 0;
     font-variant-ligatures: discretionary-ligatures;
 }
-#coolpinkrec{
-    position:absolute;
-    border:#EF0AF0 5px solid;
-    top:4524px;
+
+#coolpinkrec {
+    position: absolute;
+    border: #EF0AF0 5px solid;
+    top: 4524px;
     left: 102px;
     width: 125px;
     height: 171px;
 }
-#yellowrectangle1{
+
+#yellowrectangle1 {
     top: 6022px;
     left: 196px;
     width: 97px;
     height: 160px;
 }
-#yellowrectangle2{
+
+#yellowrectangle2 {
     top: 6026px;
     left: 599px;
     width: 63px;
     height: 134px;
 }
-#yellowrectangle3{
+
+#yellowrectangle3 {
     top: 5951px;
     left: 700px;
     width: 179px;
     height: 356px;
 }
-#yellowrectangle4{
+
+#yellowrectangle4 {
     top: 5929px;
     left: 1116px;
     width: 178px;
     height: 429px;
 }
-#miniyellowrectangle1{
+
+#miniyellowrectangle1 {
     top: 5775px;
     left: 105px;
     width: 68px;
     height: 21px;
 }
-#miniyellowrectangle2{
+
+#miniyellowrectangle2 {
     top: 5670px;
     left: 391px;
     width: 65px;
     height: 21px;
 }
-#miniyellowrectangle3{
+
+#miniyellowrectangle3 {
     top: 6144px;
     left: 336px;
     width: 94px;
     height: 21px;
 }
-#miniyellowrectangle4{
+
+#miniyellowrectangle4 {
     top: 5698px;
     left: 949px;
     width: 80px;
     height: 21px;
 }
-.yerecbold{
+
+.yerecbold {
     position: absolute;
     width: 251px;
     height: 171px;
     background-color: #FCC011;
 }
-.miniyerecbold{
+
+.miniyerecbold {
     position: absolute;
     background-color: #FCC011;
     font-family: 'Nekst';
@@ -1561,94 +1885,110 @@ body{
     display: flex;
     justify-content: center;
 }
-#fractions{
-    top:5790px;
-    left:92px;
+
+#fractions {
+    top: 5790px;
+    left: 92px;
     display: flex;
     align-items: center;
     justify-content: center;
-    div{
+
+    div {
         font-family: 'Nekst';
         font-size: 100px;
         font-weight: 700;
     }
 }
-.textaboutfractions{
+
+.textaboutfractions {
     width: 50%;
     font-family: 'Nekst';
     font-size: 100px;
     font-weight: 700;
 
 }
-#lygatursabout{
-    top:6159px;
-    left:328px;
+
+#lygatursabout {
+    top: 6159px;
+    left: 328px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.textaboutlygaturs{
+
+.textaboutlygaturs {
     font-family: 'Nekst';
     font-size: 45px;
     font-weight: 700;
 }
-#numbers{
-    top:5687px;
-    left:378px;
+
+#numbers {
+    top: 5687px;
+    left: 378px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     line-height: 84%;
     align-items: center;
-    div{
+
+    div {
         font-family: 'Nekst';
         font-size: 45px;
         font-weight: 400;
         padding: 5px;
     }
 }
-.numbers-div1{
+
+.numbers-div1 {
     font-feature-settings: 'dlig' on, 'ss04' on;
 }
-.numbers-div2{
+
+.numbers-div2 {
     font-feature-settings: 'dlig' on, 'ss05' on;
 }
-.textaboutnumbers{
+
+.textaboutnumbers {
     font-family: 'Nekst';
     font-size: 35px;
     font-weight: 700;
 }
-#arrows{
-    top:5713px;
-    left:936px;
+
+#arrows {
+    top: 5713px;
+    left: 936px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     line-height: 100%;
     padding-bottom: 10px;
-    div{
+
+    div {
         font-family: 'Nekst';
         font-size: 75px;
         font-weight: 700;
     }
 }
-.arrows-div1{
+
+.arrows-div1 {
     font-feature-settings: 'dlig' on;
 }
-.arrows-div2{
+
+.arrows-div2 {
     font-feature-settings: 'ss07' on;
 }
-.arrows-div3{
+
+.arrows-div3 {
     font-feature-settings: 'ss06' on;
 }
-.textaboutarrows{
+
+.textaboutarrows {
     font-family: 'Nekst';
     font-size: 45px;
     font-weight: 700;
 }
 
-.section{
+.section {
     background-color: black;
     background-position: 0 0;
     height: 730px;
@@ -1656,6 +1996,7 @@ body{
     margin: 0;
     padding: 0;
 }
+
 .sstv-container {
     display: flex;
     flex-direction: row;
@@ -1667,103 +2008,109 @@ body{
 }
 
 .cameras-section {
-  display: flex;
-  flex-direction: column;
-  gap: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
 }
 
 .cameras-grid {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: space-between;
-  width: 962px;
-  height: 622px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    width: 962px;
+    height: 622px;
 }
 
 .camera-box {
-  position: relative;
-  border: 3px solid #ff00ff;
-  width: 48%;
-  width: 463px;
-  height: 236px;
-  overflow: hidden;
+    position: relative;
+    border: 3px solid #ff00ff;
+    width: 48%;
+    width: 463px;
+    height: 236px;
+    overflow: hidden;
 }
 
 .camera-img {
-  width: 463px;
-  height: 263px;
-  object-fit: cover;
+    width: 463px;
+    height: 263px;
+    object-fit: cover;
 }
 
 .camera-label {
-  position: absolute;
-  top: 8px;
-  left: 8px;
-  background-color: #ff00ff;
-  font-weight: 500;
-  padding: 4px 10px;
-  font-size: 20px;
-  font-family: 'Nekst';
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    background-color: #ff00ff;
+    font-weight: 500;
+    padding: 4px 10px;
+    font-size: 20px;
+    font-family: 'Nekst';
 }
 
 .interface-footer {
-  background-color: #ff00ff;
-  text-align: center;
-  font-weight: 900;
-  padding: 12px 0;
-  font-size: 50px;
-  font-family: 'Nekst';
-  display: flex;
-  padding-left: 15px;
+    background-color: #ff00ff;
+    text-align: center;
+    font-weight: 900;
+    padding: 12px 0;
+    font-size: 50px;
+    font-family: 'Nekst';
+    display: flex;
+    padding-left: 15px;
 }
 
 .status-section {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  color: white;
-  font-family: 'Nekst';
-  font-size: 15px;
-  font-weight: 900;
-  border:#EF0AF0 3px solid;
-  width: 409px;
-  height: 645px;
-  align-items: center;
-  justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    color: white;
+    font-family: 'Nekst';
+    font-size: 15px;
+    font-weight: 900;
+    border: #EF0AF0 3px solid;
+    width: 409px;
+    height: 645px;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .status-box {
-  border: 3px solid #ff00ff;
-  padding: 10px;
-  width: 376px;
-  height: 118px;
+    border: 3px solid #ff00ff;
+    padding: 10px;
+    width: 376px;
+    height: 118px;
 }
-#camera-things1{
+
+#camera-things1 {
     position: absolute;
     top: 6427px;
     left: 59px;
 }
-#camera-things2{
+
+#camera-things2 {
     position: absolute;
     top: 6682px;
     left: 59px;
 }
-#camera-things3{
+
+#camera-things3 {
     position: absolute;
     top: 6427px;
     left: 558px;
 }
-#camera-things4{
+
+#camera-things4 {
     position: absolute;
     top: 6682px;
     left: 558px;
 }
-span{
-    color:#EF0AF0;
+
+span {
+    color: #EF0AF0;
 }
-.the-last-one{
+
+.the-last-one {
     background-image: url('../photo/background8.svg');
     background-position: 0 0;
     height: 730px;
@@ -1771,41 +2118,47 @@ span{
     margin: 0;
     padding: 0;
 }
-#rec01{
+
+#rec01 {
     position: absolute;
-    top:7208px;
+    top: 7208px;
     left: 429px;
     width: 672px;
     height: 524px;
 }
-#rec0{
+
+#rec0 {
     position: absolute;
-    top:7219px;
+    top: 7219px;
     left: 442px;
     width: 649px;
     height: 501px;
     background-color: #000;
 }
-#question{
+
+#question {
     font-family: 'Nekst';
     font-size: 35px;
     font-weight: 900;
-    color:white;
+    color: white;
 }
-#questiontext{
+
+#questiontext {
     font-family: 'Nekst';
     font-size: 25px;
     font-weight: 400;
-    color:white;
+    color: white;
 }
-.flexquestion{
+
+.flexquestion {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 80px 25px 0 25px;
     gap: 20px;
 }
-.btn{
+
+.btn {
     position: absolute;
     top: 440px;
     left: 467px;
@@ -1819,26 +2172,30 @@ span{
     align-items: center;
     justify-content: center;
 }
-.btn:hover{
+
+.btn:hover {
     background-color: #000;
-    border:#00FF03 2px solid;
-    color:#00FF03;
+    border: #00FF03 2px solid;
+    color: #00FF03;
     cursor: pointer;
 }
-#recfooter{
+
+#recfooter {
     width: 1521px;
     height: 250px;
     background-color: #000;
     margin: 0;
     padding: 0;
 }
-.closeopenfooter{
+
+.closeopenfooter {
     display: flex;
     flex-direction: row;
     padding-left: 1375px;
     border-bottom: #00FF03 3px solid;
 }
-#textname{
+
+#textname {
     font-size: 33px;
     font-family: 'Nekst';
     font-weight: 600;
@@ -1847,7 +2204,8 @@ span{
     align-items: flex-start;
     flex-direction: column;
 }
-#texthse{
+
+#texthse {
     font-size: 41px;
     font-family: 'Nekst';
     font-weight: 900;
@@ -1856,26 +2214,30 @@ span{
     flex-direction: column;
     align-items: flex-end;
 }
-.footertext{
+
+.footertext {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
     padding: 40px 20px;
 }
-.batterydiv{
+
+.batterydiv {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 40px;
 }
-.batterydiv1{
+
+.batterydiv1 {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 90px;
 }
-.slotbattery{
+
+.slotbattery {
     display: flex;
-    
+
 }
