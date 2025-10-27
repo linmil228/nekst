@@ -1794,7 +1794,7 @@ body {
     cursor: pointer;
 }
 
-.lygaturs {
+.lygatures {
     background-image: url('../photo/background7.svg');
     background-position: 0 0;
     height: 730px;
@@ -1908,7 +1908,7 @@ body {
 
 }
 
-#lygatursabout {
+#lygaturesabout {
     top: 6159px;
     left: 328px;
     display: flex;
@@ -1916,7 +1916,7 @@ body {
     justify-content: center;
 }
 
-.textaboutlygaturs {
+.textaboutlygatures {
     font-family: 'Nekst';
     font-size: 45px;
     font-weight: 700;
