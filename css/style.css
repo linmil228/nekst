@@ -987,8 +987,7 @@ body {
 
 #person3 {
     border: #EF0AF0 3px solid;
-    width: 217px;
-    height: 290px;
+    display: flex;
 }
 
 #person4 {
@@ -997,12 +996,15 @@ body {
 
 #person {
     border: #EF0AF0 3px solid;
+    margin: 3px;
 }
 
 #person1 {
     border: #EF0AF0 5px solid;
     width: 421px;
     height: 420px;
+    margin: 5px;
+    display: flex;
 }
 
 .slwofform1 {
@@ -1051,9 +1053,10 @@ body {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 10px;
+    padding: 5px;
     border: #EF0AF0 3px solid;
     margin: 0 10px;
+    gap: 5px;
 }
 
 .formrowborder1 {
@@ -1063,6 +1066,7 @@ body {
     padding: 15px;
     border: #EF0AF0 5px solid;
     margin: 0 10px;
+    gap: 10px;
 }
 
 .font-options1 {
@@ -1072,11 +1076,11 @@ body {
     color: white;
     font-family: 'Nekst';
     font-size: 54px;
-    padding: 10px;
+    padding: 8px;
 
     div {
         display: flex;
-        padding-bottom: 20px;
+        padding-bottom: 18px;
     }
 }
 
